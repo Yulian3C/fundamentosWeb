@@ -1,6 +1,6 @@
 /* Estilos de pagina de viajes*/ 
 *{
-    outline: solid black;
+    
 }
 
 body{ /* Seleccion de body */
@@ -13,3 +13,23 @@ padding: 0 ; /* Elimina todo el relleno de los elementos*/
     width: 80%; /* establece el ancho del contenedor en un 80%*/   
     margin: 0 auto; /* Centra horizontalmente el contenedor*/
     }
+/*estilo de encabezado*/
+header{
+    background-color: dimgrey; /*establece el color de fonfo*/
+    color: aliceblue; /*establece el color del texto*/
+    padding: 20px 0; /*añade relleno en la parte superior y inferior*/
+}
+
+header h1{
+    margin: 0; /*elimina el margen por defecto del titulo*/
+}
+/* estilo de elemento de lista */
+nav ul li{
+    display:inline; /* se alínea los elementos */
+    margin-right: 20px; /* margen hacia la derecha*/
+}
+/* Estilo a eleemntos de vinculo ancla de navegacion */
+nav ul li a{
+    color: ghostwhite; /* color elemento anchor*/
+    text-decoration: none; /* quita subrayado de  enlaces*/
+}
