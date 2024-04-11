@@ -1,4 +1,4 @@
-/* Estilos de pagina de viajes */
+/* Estilos de pagina de viajes*/ 
 *{
     outline: solid black;
 }
@@ -8,3 +8,8 @@ font-family: Arial, sans-serif; /* Cambia tipografia*/
 margin: 0; /* Elimina todo el margen predefinido*/
 padding: 0 ; /* Elimina todo el relleno de los elementos*/
 }
+/* Aca viene el estilo de una clase container*/
+.container {
+    width: 80%; /* establece el ancho del contenedor en un 80%*/   
+    margin: 0 auto; /* Centra horizontalmente el contenedor*/
+    }
