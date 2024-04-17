@@ -92,3 +92,41 @@ footer{
     text-align: center;
     padding: 20px; 
 }
+
+/*aca va el estilo del formulario de contacto*/
+
+#contacto{
+    padding: 40px 0;
+}
+
+#contacto .container{
+    text-align: center;
+}
+
+#contacto h2{
+    margin-bottom: 20px;
+}
+#contacto form{
+    max-width: 5000px; /*establece el ancho maximo del elemento formulario*/
+    margin: 0 auto; /*centra horizontalmente dentro del contenedor */
+    padding: 20px;
+    background-color: rgba(133, 139, 148, 0.945);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); /*establece una forma alrededor del formulario*/
+}
+#contacto label{
+    display: block; /*etiquetas en bloques*/
+    margin-bottom: 10px;
+    font-weight: bold; /*establece fuente en negrita*/
+}
+#contacto input, #contacto textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box; /*incluye el padding y el borde del ancho dentro del eleemnto que lo contiene*/
+}
+#contacto textarea{
+    resize: vertical; /*permite redimensionar el area del texto pero verticalmente*/
+}
