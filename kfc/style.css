@@ -1,0 +1,50 @@
+body{
+    padding:0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0px;
+    background-color: white;
+}
+
+.btnMenu button{
+    background-color:#fe0000 ;
+    color: white;
+    border: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100px;
+    height: 35px;
+    border-radius: 35px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.btnMenu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu h2{
+    color: #272329;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.kkk{
+    color: #272329;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.kkk h3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+    text-align: center;
+}
