@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin:  0x;
+    }
+    body{
+    background-color: black;
+    }
+    .red{
+    width: 440px;
+    background-color: #de2722;
+    height: 440px;
+    position: absolute;
+    top: 0px; left: 170px;
+    }
+    .white{
+    width: 150px;
+    
+    background-color: white;
+    height: 180px;
+    margin-bottom: 49px;
+    }
+    .dos{
+    width: 150px;
+    background-color: white;
+    height: 210px;
+    margin-top: 27px;
+    margin-bottom: 20px;
+    }
+    .blue{
+    width: 150px;
+    background-color: #035aa1;
+    height: 130px;
+    }
+    .tres{
+    width: 365px;
+    background-color: white;
+    height: 130px;
+    position: absolute;
+    top: 460px; left: 170px;
+    }
+    .cuatro{
+    width: 50px;
+    background-color: white;
+    height: 50px;
+    position:absolute;
+    top: 460px; left: 560px;
+    }
+    .yellow{
+    width: 50px;
+    background-color: #f1df72;
+    height: 60px;
+    position: absolute;
+    top: 520px; left: 560px;
+    margin-top: 10px;
+    }
